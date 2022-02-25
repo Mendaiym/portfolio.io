@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0;
+}
+.header{
+    background: rgb(119, 0, 255);
+    height: 50px;
+}
+#logo{
+    color: #fff;
+    text-decoration: none;
+    font-family: 24px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.header .menu{
+    /* background: #000; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.menu .menu-item {
+    list-style: none;
+    transition: 0.5s;
+}
+
+.menu .menu-item .menu-link{
+   text-decoration: none;
+    color: #fff;
+    font-family: 24px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.menu-item:hover{
+    transform: scale(1.5);
+}
